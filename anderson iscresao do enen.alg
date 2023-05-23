@@ -1,0 +1,151 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 30/03/2023
+// Seção de Declarações 
+var
+nome,mae,pai,nacimento,modal:caracter
+senha,senha2,escola:inteiro
+renda,pesoas,insencao,carro,moto,geladeira,freezer,lavar,secadora,celular,tvs,micronda,casa,aspirador,fogao,frigobar,radio,instrumento,bicicleta,som,ventilador:real
+inicio
+// Seção de Comandos
+escreval(" ")
+escreval("seija bem vindo a inseçao no ENEN!")
+escreval("************2023************")
+escreval("informe se nome")
+leia(nome)
+escreval(" ")
+escreval("informe nome da  sua mae")
+leia(mae)
+escreval(" ")
+escreval("informe nome do seu pai")
+leia(pai)
+escreval(" ")
+escreval("informe sua modalidade")
+leia(modal)
+escreval(" ")
+escreval("informe sua data de nacimento")
+leia(nacimento)
+escreval(" ")
+escreval("informe sua modalidade que voce estudou")
+leia(modal)
+escreval(" ")
+escreval("voce estudou em escolla publica ou particular?")
+escreval("digite ´1´ para publica ou digite ´2´ para particular")
+escreval(" ")
+escreval(" ")
+leia(escola)
+escreval(" ")
+escreval(" ")
+escreval(" ")
+repita
+escreval(" ")
+escreval("informe sua senha")
+leia(senha)
+escreval(" ")
+ESCREVAL("INFORME SUA SENHA NOVAMENTE")
+leia(senha2)
+escreval(" ")
+se senha <> senha2 entao
+escreval("erro")
+fimse
+ ate senha = senha2
+
+escreval("informe sua renda familiar")
+escreval ("digite 1 - se a renda for menos DE R$1000")
+escreval ("digite 2 - se a renda for DE R$1000 A R$2000")
+escreval ("digite 3 - se a renda for DE R$2000 A R$3000")
+escreval ("digite 4 - se a renda for DE R$3000 A R$4000")
+escreval ("digite 5 - se a renda for DE R$4000 A R$5000")
+escreval ("digite 6 - se a renda for DE R$5000 A R$6000")
+escreval ("digite 7 - se a renda for ACIMA DE R$6000")
+leia(renda)
+escreval("informe a quantidade de pessoas que moram na sua residencia")
+leia(pesoas)
+escreval(" ")
+escreval(" ")
+escreval(" ")
+insencao <- (renda/pesoas)
+escreval ("impremente as perguntas abaixo colocando a quantidade de objetos")
+escreval("se voce nao tive ele coloque *0* se tive")
+escreval("informe a quantidade para possamos com forma mais efetiva")
+escreval("saber quem esta habilitado para paga a prova")
+escreval(" ")
+escreval(" ")
+escreval(" ")
+escreval ("quantidade de carros")
+leia(carro)
+escreval ("quantidade de motos")
+leia(moto)
+escreval ("quantidade de geladeira")
+leia(geladeira)
+escreval ("quantidade de freezer")
+leia(freezer)
+escreval ("quantidade de maquina de lavar")
+leia(lavar)
+escreval ("quantidade de secadora")
+leia(secadora)
+escreval ("quantidade de celulares")
+leia(celular)
+escreval ("quantidade de tv")
+leia(tvs)
+escreval ("quantidade de microondas")
+leia(micronda)
+escreval ("quantidade de comodos da sua casa")
+leia(casa)
+escreval("quantidade de aspirador de po")
+leia(aspirador)
+escreval("quantidade de fogao")
+leia(fogao)
+escreval ("quantidade de frigobar")
+leia(frigobar)
+escreval("quantidade de ventilador")
+leia(ventilador)
+escreval("quantidade de radio")
+leia(radio)
+escreval("quantidade de instrumentos")
+leia(instrumento)
+escreval ("quantidade de bicicletas")
+leia(bicicleta)
+escreval("quantidade de caixa de som")
+leia(som)
+
+SE (carro <2 ) e (casa < 6) entao
+SE (moto <2) e (aspirador < 2) entao
+SE (geladeira < 2) e (fogao < 2) entao
+SE (freezer < 2) e (ventilador < 6) entao
+SE (lavar < 2) e (frigobar < 2) entao
+SE (secadora < 2) e (radio < 3) entao
+SE (celular < 2) e (instrumento < 2) entao
+SE (tvs < 2) e (bicicleta < 2) entao
+SE (micronda < 2) e (som < 3) entao
+SE (insencao < 600) e (modal = 1) entao
+se (insencao < 600) e (escola = 1) entao
+escreval(" INSERCAO APROVADA ")
+SENAO
+ESCREVAL(" PEDIDO INDERFERIDO ")
+ fimse
+escreval("obrigador")
+
+
+escreval("seu nome:,nome")
+escreval("nome do pai:,pai")
+escreval("nome da me:,mae")
+escreval("seu nacimento:,nacimento")
+escreval("modalidade;,modal")
+escreval("sua escola:,escola")
+
+escreval("boa sorte")
+
+fimalgoritmo
+
+
+
+
+
+
+
+
+
+
+
