@@ -1,16 +1,16 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 30/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome,mae,pai,nacimento,modal:caracter
 senha,senha2,escola:inteiro
 renda,pesoas,insencao,carro,moto,geladeira,freezer,lavar,secadora,celular,tvs,micronda,casa,aspirador,fogao,frigobar,radio,instrumento,bicicleta,som,ventilador:real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval(" ")
-escreval("seija bem vindo a inseçao no ENEN!")
+escreval("seija bem vindo a inseÃ§ao no ENEN!")
 escreval("************2023************")
 escreval("informe se nome")
 leia(nome)
@@ -31,7 +31,7 @@ escreval("informe sua modalidade que voce estudou")
 leia(modal)
 escreval(" ")
 escreval("voce estudou em escolla publica ou particular?")
-escreval("digite ´1´ para publica ou digite ´2´ para particular")
+escreval("digite Â´1Â´ para publica ou digite Â´2Â´ para particular")
 escreval(" ")
 escreval(" ")
 leia(escola)
